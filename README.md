@@ -77,15 +77,15 @@ Example template:
     <mj-include path="./partials/header.mjml" />
     <mj-section mj-class="main">
       <mj-column>
-        <mj-text mj-class="title" css-class="tal">
-          <i18n key="welcome">{{__ "greetings" email=email}}</i18n>
+        <mj-text mj-class="title">
+          {{__ "greetings" email=email}}
         </mj-text>
         <mj-text>
           {{__ "welcome"}}
         </mj-text>
         <mj-raw>{{#if showButton}}</mj-raw>
         <mj-button href="#">
-          Go to my account
+          Go to my account 
         </mj-button>
         <mj-raw>{{/if}}</mj-raw>
         <mj-raw>{{#each items}}</mj-raw>
@@ -112,8 +112,8 @@ Example template:
 -->
 
 <!-- vars
-email: jaime2@gmail.com
-items:
+email: john@gmail.com 
+items: 
   - name: item1
   - name: item2
   - name: item3
