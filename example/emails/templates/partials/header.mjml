@@ -1,0 +1,8 @@
+<mj-section>
+  <mj-column>
+    <mj-image src="https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs" alt="Applivery" width="244px" height="51px" />
+    <mj-text align="center" color="#334155" font-size="16px">
+      Your company
+    </mj-text>
+  </mj-column>
+</mj-section>

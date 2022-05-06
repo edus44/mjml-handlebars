@@ -1,0 +1,7 @@
+<mj-section>
+  <mj-column>
+    <mj-text color="#94a3b8" align="center">
+      ©{{year}} Your company. All rights reserved.
+    </mj-text>
+  </mj-column>
+</mj-section>

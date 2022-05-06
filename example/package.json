@@ -1,0 +1,20 @@
+{
+  "name": "mjml-handlebars-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "emails": "mjml-handlebars",
+    "emails:dev": "run-p emails:watch emails:preview",
+    "emails:watch": "nodemon --exec 'npm run emails' -e mjml -i emails/output",
+    "emails:preview": "live-server -q emails/preview"
+  },
+  "dependencies": {
+    "mjml-handlebars": "^0.0.6"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "@compodoc/live-server": "^1.2.3",
+    "nodemon": "^2.0.16"
+  }
+}
