@@ -45,7 +45,7 @@ To generate the final email, the precompiled version of the handlebars email wil
 ```typescript
 import { generateEmail } from 'mjml-handlebars'
 
-const { html, text } = generateEmail(
+const { html, text, subject } = generateEmail(
   'welcome',
   {
     email: 'john@gmail.com',
@@ -59,9 +59,10 @@ const { html, text } = generateEmail(
 
 ## MJML templates powerups
 
-There are 3 required comment blocks:
+There are 4 required comment blocks (only available for main templates, not partials):
 
 - **text** (_plain text_): contains the email in text mode (with same handlebars support as the mjml part)
+- **subject** (_plain text_): contains the email subject (with same handlebars support as the mjml part)
 - **i18n** (_YAML_): languages and messages for translations 
 - **vars** (_YAML_): sample variables for previewing
 
@@ -109,6 +110,10 @@ Example template:
 {{__ "greetings" email=email}}
 
 {{__ "welcome"}}
+-->
+
+<!-- subject
+{{__ "greetings" email=email}}
 -->
 
 <!-- vars

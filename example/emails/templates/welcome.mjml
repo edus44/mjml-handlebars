@@ -41,6 +41,12 @@
 {{__ "welcome"}}
 -->
 
+<!-- subject
+{{__ "greetings" email=email}}
+
+{{__ "welcome"}}
+-->
+
 <!-- vars
 email: john@gmail.com 
 items: 

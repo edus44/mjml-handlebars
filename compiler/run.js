@@ -36,7 +36,13 @@ for (const templateFile of templateFiles) {
   // Extract comment blocks
   const messages = extractComment(content, 'i18n', true)
   const textTemplate = extractComment(content, 'text')
-  const vars = extractComment(content, 'vars', true)
+  const subjectTemplate = extractComment(content, 'subject')
+  let vars = extractComment(content, 'vars', true)
+
+  if (!messages || typeof messages !== 'object')
+    throw new Error('i18n block nees to be a valid YAML object of objects')
+  if (vars == undefined) vars = {}
+  if (typeof vars !== 'object') throw new Error('vars block nees to be a valid YAML object')
 
   // Default vars
   vars.year = new Date().getFullYear()
@@ -46,22 +52,26 @@ for (const templateFile of templateFiles) {
   if (mjmlResult.errors.length) console.error('   error: ', mjmlResult.errors)
 
   // Write templates
-  fs.outputFileSync(resolve(outputFolder, `${name}.html`), mjmlResult.html)
-  fs.outputFileSync(resolve(outputFolder, `${name}.txt`), textTemplate)
-  fs.outputJSONSync(resolve(outputFolder, `${name}.i18n.json`), messages, { spaces: 2 })
-  fs.outputJSONSync(resolve(outputFolder, `${name}.vars.json`), messages, { spaces: 2 })
+  const assetName = resolve(outputFolder, name, name)
+  fs.outputFileSync(assetName + '.html', mjmlResult.html)
+  fs.outputFileSync(assetName + '.txt', textTemplate)
+  fs.outputFileSync(assetName + '.subject.txt', subjectTemplate)
+  fs.outputJSONSync(assetName + '.i18n.json', messages, { spaces: 2 })
+  fs.outputJSONSync(assetName + '.vars.json', messages, { spaces: 2 })
   fs.outputFileSync(
-    resolve(outputFolder, `${name}.html.js`),
+    assetName + '.html.js',
     'module.exports=' + handlebars.precompile(mjmlResult.html),
   )
+  fs.outputFileSync(assetName + '.txt.js', 'module.exports=' + handlebars.precompile(textTemplate))
   fs.outputFileSync(
-    resolve(outputFolder, `${name}.txt.js`),
-    'module.exports=' + handlebars.precompile(textTemplate),
+    assetName + '.subject.txt.js',
+    'module.exports=' + handlebars.precompile(subjectTemplate),
   )
 
   // Compile Handlebars
   const hbHtmlTemplate = handlebars.compile(mjmlResult.html)
   const hbTextTemplate = handlebars.compile(textTemplate)
+  const hbSubjectTemplate = handlebars.compile(subjectTemplate)
 
   // Iterate languages
   const languages = Object.keys(messages)
@@ -72,6 +82,7 @@ for (const templateFile of templateFiles) {
     const context = withI18n(vars, messages, language)
     const html = hbHtmlTemplate(context)
     const text = hbTextTemplate(context)
+    const subject = hbSubjectTemplate(context)
 
     // Write preview HTML
     fs.outputFileSync(
@@ -86,6 +97,16 @@ for (const templateFile of templateFiles) {
       text,
     )
     fs.outputFileSync(resolve(previewFolder, 'by-template', name, `${name}-${language}.txt`), text)
+
+    // Write preview SUBJECT
+    fs.outputFileSync(
+      resolve(previewFolder, 'by-language', language, `${name}-${language}.subject.txt`),
+      subject,
+    )
+    fs.outputFileSync(
+      resolve(previewFolder, 'by-template', name, `${name}-${language}.subject.txt`),
+      subject,
+    )
   }
 }
 
