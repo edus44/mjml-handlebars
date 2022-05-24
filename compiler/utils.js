@@ -4,7 +4,7 @@ const { parse } = require('yaml')
 
 function extractComment(content, key, isYaml) {
   try{
-  const [, value] = content.match(new RegExp(`<!-- ${key}([^>]*)-->`)) || []
+  const [, value] = content.match(new RegExp(`<!-- ${key}([\s\S]*?)-->`)) || []
   return isYaml
     ? parse(value, {
         strict: true,
