@@ -44,9 +44,6 @@ for (const templateFile of templateFiles) {
   if (vars == undefined) vars = {}
   if (typeof vars !== 'object') throw new Error('vars block nees to be a valid YAML object')
 
-  // Default vars
-  vars.year = new Date().getFullYear()
-
   // Compile MJML
   const mjmlResult = mjml2html(content, { filePath: templatesFolder })
   if (mjmlResult.errors.length) console.error('   error: ', mjmlResult.errors)
@@ -57,7 +54,7 @@ for (const templateFile of templateFiles) {
   fs.outputFileSync(assetName + '.txt', textTemplate)
   fs.outputFileSync(assetName + '.subject.txt', subjectTemplate)
   fs.outputJSONSync(assetName + '.i18n.json', messages, { spaces: 2 })
-  fs.outputJSONSync(assetName + '.vars.json', messages, { spaces: 2 })
+  fs.outputJSONSync(assetName + '.vars.json', vars, { spaces: 2 })
   fs.outputFileSync(
     assetName + '.html.js',
     'module.exports=' + handlebars.precompile(mjmlResult.html),
@@ -72,6 +69,9 @@ for (const templateFile of templateFiles) {
   const hbHtmlTemplate = handlebars.compile(mjmlResult.html)
   const hbTextTemplate = handlebars.compile(textTemplate)
   const hbSubjectTemplate = handlebars.compile(subjectTemplate)
+
+  // Default vars
+  vars.year = new Date().getFullYear()
 
   // Iterate languages
   const languages = Object.keys(messages)

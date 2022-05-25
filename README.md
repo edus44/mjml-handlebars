@@ -17,6 +17,11 @@ Add this scripts to your package.json
 "emails": "mjml-handlebars",
 ```
 
+Use this if you are using custom root folder and dotenv
+```
+"emails": "node -r dotenv/config node_modules/.bin/mjml-handlebars",
+```
+
 ### For live preview support:
 
 ```
@@ -37,6 +42,8 @@ Add `emails/preview` to your `.gitignore`
 ## Usage
 
 Generate an `emails/templates` folder, add your mjml templates there. If your run the `emails` script, the emails/output and emails/preview folders will be generated with the compiled assets.
+
+By default it uses `{cwd}/emails` as root folder, can be changed with `MJML_HANDLEBARS_ROOT` environment variable.
 
 > Run `emails:dev` to watch for changes and a live server preview
 
