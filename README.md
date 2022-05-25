@@ -60,7 +60,8 @@ const { html, text, subject } = generateEmail(
     showButton: true,
     disclaimer: 'This is the disclaimer',
   },
-  'en',
+  'de', // Language
+  'en' // Optional fallback Language
 )
 ```
 
@@ -72,6 +73,8 @@ There are 4 required comment blocks (only available for main templates, not part
 - **subject** (_plain text_): contains the email subject (with same handlebars support as the mjml part)
 - **i18n** (_YAML_): languages and messages for translations 
 - **vars** (_YAML_): sample variables for previewing
+
+_There is support for logical operators, taken from [here](https://stackoverflow.com/a/31632215)_
 
 Example template:
 
@@ -101,7 +104,7 @@ Example template:
         <mj-raw>{{/each}}</mj-raw>
 
         <mj-text>
-        {{#if disclaimer}}
+        {{#if (ne type 'show') }}
         {{disclaimer}}
         {{else}}
         no disclaimer
@@ -130,6 +133,7 @@ items:
   - name: item2
   - name: item3
 showButton: true
+type: 'show'
 # disclaimer: 'This is the disclaimer'
 -->
 
