@@ -4,10 +4,10 @@ const handlebars = require('handlebars')
 const { withI18n } = require('./i18n')
 const { resolve } = require('path')
 
-const root = process.cwd()
+const root = process.env.MJML_HANDLEBARS_ROOT || resolve(process.cwd() , 'emails')
 
 function generateEmail(templateName, vars, language) {
-  const asset = resolve(root, `emails/output/${templateName}/${templateName}`)
+  const asset = resolve(root, `output/${templateName}/${templateName}`)
   const templateHtml = require(asset + '.html.js')
   const templateText = require(asset + '.txt.js')
   const templateSubject = require(asset + '.subject.txt.js')

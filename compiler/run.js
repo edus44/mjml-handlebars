@@ -10,18 +10,18 @@ const handlebars = require('handlebars')
 const { withI18n } = require('../i18n')
 const { extractComment } = require('./utils')
 
-const root = process.cwd()
+const root = process.env.MJML_HANDLEBARS_ROOT || resolve(process.cwd() , 'emails')
 
 // Preview folder, cleaned
-const previewFolder = resolve(root, 'emails/preview')
+const previewFolder = resolve(root, 'preview')
 fs.emptyDirSync(previewFolder)
 
 // Output folder, cleaned
-const outputFolder = resolve(root, 'emails/output')
+const outputFolder = resolve(root, 'output')
 fs.emptyDirSync(outputFolder)
 
 // Find al mjml files
-const templatesFolder = resolve(root, 'emails/templates')
+const templatesFolder = resolve(root, 'templates')
 
 const templateFiles = glob.sync(`${templatesFolder}/*.mjml`)
 console.log(chalk.blue(`Found ${chalk.bold(templateFiles.length)} templates`))
