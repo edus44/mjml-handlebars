@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "emails": "mjml-handlebars",
+    "emails": "node ../compiler/run.js",
     "emails:dev": "run-p emails:watch emails:preview",
-    "emails:watch": "nodemon --exec 'npm run emails' -e mjml -i emails/output",
-    "emails:preview": "live-server -q emails/preview"
+    "emails:watch": "nodemon --exec 'npm run emails' -e mjml -i other/output",
+    "emails:preview": "live-server -q other/preview"
   },
   "dependencies": {
     "mjml-handlebars": "^0.0.6"

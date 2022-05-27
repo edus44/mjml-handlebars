@@ -1,0 +1,3089 @@
+// Vitest Snapshot v1
+
+exports[`compile 1`] = `
+[
+  "tests/basic/output/welcome/welcome.html",
+  "tests/basic/output/welcome/welcome.html.js",
+  "tests/basic/output/welcome/welcome.i18n.json",
+  "tests/basic/output/welcome/welcome.subject.txt",
+  "tests/basic/output/welcome/welcome.subject.txt.js",
+  "tests/basic/output/welcome/welcome.txt",
+  "tests/basic/output/welcome/welcome.txt.js",
+  "tests/basic/output/welcome/welcome.vars.json",
+  "tests/basic/preview/by-language/en/welcome-en.html",
+  "tests/basic/preview/by-language/en/welcome-en.subject.txt",
+  "tests/basic/preview/by-language/en/welcome-en.txt",
+  "tests/basic/preview/by-language/es/welcome-es.html",
+  "tests/basic/preview/by-language/es/welcome-es.subject.txt",
+  "tests/basic/preview/by-language/es/welcome-es.txt",
+  "tests/basic/preview/by-template/welcome/welcome-en.html",
+  "tests/basic/preview/by-template/welcome/welcome-en.subject.txt",
+  "tests/basic/preview/by-template/welcome/welcome-en.txt",
+  "tests/basic/preview/by-template/welcome/welcome-es.html",
+  "tests/basic/preview/by-template/welcome/welcome-es.subject.txt",
+  "tests/basic/preview/by-template/welcome/welcome-es.txt",
+]
+`;
+
+exports[`compile 2`] = `
+"<!doctype html>
+<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+  <head>
+    <title>
+      
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+    <!--<![endif]-->
+    <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <style type=\\"text/css\\">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=\\"text/css\\">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+      <!--[if !mso]><!-->
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+<link href=\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+        <style type=\\"text/css\\">
+          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);
+        </style>
+      <!--<![endif]-->
+
+    
+    
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:480px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+  
+    <style type=\\"text/css\\">
+    
+    
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+    <style type=\\"text/css\\">
+    
+    </style>
+    
+  </head>
+  <body style=\\"word-spacing:normal;background-color:#94a3b8;\\">
+    
+    
+      <div
+         style=\\"background-color:#94a3b8;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:244px;\\">
+              
+      <img
+         alt=\\"Applivery\\" height=\\"51\\" src=\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\" width=\\"244\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\"
+      >Your company</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;border-radius:12px;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\"
+      >{{__ \\"greetings\\" email=email}}</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >{{__ \\"welcome\\"}}</div>
+    
+                </td>
+              </tr>
+            {{#if showButton}}
+              <tr>
+                <td
+                   align=\\"left\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=\\"center\\" bgcolor=\\"#0241e3\\" role=\\"presentation\\" style=\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"#\\" style=\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\" target=\\"_blank\\"
+              >
+                Go to my account
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            {{/if}}{{#each items}}
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>{{this.name}}</b></div>
+    
+                </td>
+              </tr>
+            {{/each}}
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >{{{__ 'goTo' link=link }}}</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >{{#if (eq type 'showDisclaimer') }}
+        {{disclaimer}}
+        {{else}}
+        no disclaimer
+        {{/if}}</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\"
+      >©{{year}} Your company. All rights reserved.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  "
+`;
+
+exports[`compile 3`] = `
+"module.exports={\\"1\\":function(container,depth0,helpers,partials,data) {
+    return \\"              <tr>\\\\n                <td\\\\n                   align=\\\\\\"left\\\\\\" vertical-align=\\\\\\"middle\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <table\\\\n         border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"border-collapse:separate;line-height:100%;\\\\\\"\\\\n      >\\\\n        <tbody>\\\\n          <tr>\\\\n            <td\\\\n               align=\\\\\\"center\\\\\\" bgcolor=\\\\\\"#0241e3\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\\\\\" valign=\\\\\\"middle\\\\\\"\\\\n            >\\\\n              <a\\\\n                 href=\\\\\\"#\\\\\\" style=\\\\\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\\\\\" target=\\\\\\"_blank\\\\\\"\\\\n              >\\\\n                Go to my account\\\\n              </a>\\\\n            </td>\\\\n          </tr>\\\\n        </tbody>\\\\n      </table>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n            \\";
+},\\"3\\":function(container,depth0,helpers,partials,data) {
+    var lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return \\"\\\\n              <tr>\\\\n                <td\\\\n                   align=\\\\\\"left\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <div\\\\n         style=\\\\\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\\\\\"\\\\n      >Item: <b>\\"
+    + container.escapeExpression(container.lambda((depth0 != null ? lookupProperty(depth0,\\"name\\") : depth0), depth0))
+    + \\"</b></div>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n\\";
+},\\"5\\":function(container,depth0,helpers,partials,data) {
+    var helper, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return \\"\\\\n        \\"
+    + container.escapeExpression(((helper = (helper = lookupProperty(helpers,\\"disclaimer\\") || (depth0 != null ? lookupProperty(depth0,\\"disclaimer\\") : depth0)) != null ? helper : container.hooks.helperMissing),(typeof helper === \\"function\\" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{\\"name\\":\\"disclaimer\\",\\"hash\\":{},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":259,\\"column\\":8},\\"end\\":{\\"line\\":259,\\"column\\":22}}}) : helper)))
+    + \\"\\\\n\\";
+},\\"7\\":function(container,depth0,helpers,partials,data) {
+    return \\"        no disclaimer\\\\n        \\";
+},\\"compiler\\":[8,\\">= 4.3.0\\"],\\"main\\":function(container,depth0,helpers,partials,data) {
+    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return \\"<!doctype html>\\\\n<html xmlns=\\\\\\"http://www.w3.org/1999/xhtml\\\\\\" xmlns:v=\\\\\\"urn:schemas-microsoft-com:vml\\\\\\" xmlns:o=\\\\\\"urn:schemas-microsoft-com:office:office\\\\\\">\\\\n  <head>\\\\n    <title>\\\\n      \\\\n    </title>\\\\n    <!--[if !mso]><!-->\\\\n    <meta http-equiv=\\\\\\"X-UA-Compatible\\\\\\" content=\\\\\\"IE=edge\\\\\\">\\\\n    <!--<![endif]-->\\\\n    <meta http-equiv=\\\\\\"Content-Type\\\\\\" content=\\\\\\"text/html; charset=UTF-8\\\\\\">\\\\n    <meta name=\\\\\\"viewport\\\\\\" content=\\\\\\"width=device-width, initial-scale=1\\\\\\">\\\\n    <style type=\\\\\\"text/css\\\\\\">\\\\n      #outlook a { padding:0; }\\\\n      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }\\\\n      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }\\\\n      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }\\\\n      p { display:block;margin:13px 0; }\\\\n    </style>\\\\n    <!--[if mso]>\\\\n    <noscript>\\\\n    <xml>\\\\n    <o:OfficeDocumentSettings>\\\\n      <o:AllowPNG/>\\\\n      <o:PixelsPerInch>96</o:PixelsPerInch>\\\\n    </o:OfficeDocumentSettings>\\\\n    </xml>\\\\n    </noscript>\\\\n    <![endif]-->\\\\n    <!--[if lte mso 11]>\\\\n    <style type=\\\\\\"text/css\\\\\\">\\\\n      .mj-outlook-group-fix { width:100% !important; }\\\\n    </style>\\\\n    <![endif]-->\\\\n    \\\\n      <!--[if !mso]><!-->\\\\n        <link href=\\\\\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\\\\\" rel=\\\\\\"stylesheet\\\\\\" type=\\\\\\"text/css\\\\\\">\\\\n<link href=\\\\\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\\\\\" rel=\\\\\\"stylesheet\\\\\\" type=\\\\\\"text/css\\\\\\">\\\\n        <style type=\\\\\\"text/css\\\\\\">\\\\n          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);\\\\n@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);\\\\n        </style>\\\\n      <!--<![endif]-->\\\\n\\\\n    \\\\n    \\\\n    <style type=\\\\\\"text/css\\\\\\">\\\\n      @media only screen and (min-width:480px) {\\\\n        .mj-column-per-100 { width:100% !important; max-width: 100%; }\\\\n      }\\\\n    </style>\\\\n    <style media=\\\\\\"screen and (min-width:480px)\\\\\\">\\\\n      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }\\\\n    </style>\\\\n    \\\\n  \\\\n    <style type=\\\\\\"text/css\\\\\\">\\\\n    \\\\n    \\\\n\\\\n    @media only screen and (max-width:480px) {\\\\n      table.mj-full-width-mobile { width: 100% !important; }\\\\n      td.mj-full-width-mobile { width: auto !important; }\\\\n    }\\\\n  \\\\n    </style>\\\\n    <style type=\\\\\\"text/css\\\\\\">\\\\n    \\\\n    </style>\\\\n    \\\\n  </head>\\\\n  <body style=\\\\\\"word-spacing:normal;background-color:#94a3b8;\\\\\\">\\\\n    \\\\n    \\\\n      <div\\\\n         style=\\\\\\"background-color:#94a3b8;\\\\\\"\\\\n      >\\\\n        \\\\n      \\\\n      <!--[if mso | IE]><table align=\\\\\\"center\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" class=\\\\\\"\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"width:500px;\\\\\\" width=\\\\\\"500\\\\\\" ><tr><td style=\\\\\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\\\\\"><![endif]-->\\\\n    \\\\n      \\\\n      <div  style=\\\\\\"margin:0px auto;max-width:500px;\\\\\\">\\\\n        \\\\n        <table\\\\n           align=\\\\\\"center\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"width:100%;\\\\\\"\\\\n        >\\\\n          <tbody>\\\\n            <tr>\\\\n              <td\\\\n                 style=\\\\\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\\\\\"\\\\n              >\\\\n                <!--[if mso | IE]><table role=\\\\\\"presentation\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\"><tr><td class=\\\\\\"\\\\\\" style=\\\\\\"vertical-align:top;width:500px;\\\\\\" ><![endif]-->\\\\n            \\\\n      <div\\\\n         class=\\\\\\"mj-column-per-100 mj-outlook-group-fix\\\\\\" style=\\\\\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\\\\\"\\\\n      >\\\\n        \\\\n      <table\\\\n         border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"vertical-align:top;\\\\\\" width=\\\\\\"100%\\\\\\"\\\\n      >\\\\n        <tbody>\\\\n          \\\\n              <tr>\\\\n                <td\\\\n                   align=\\\\\\"center\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <table\\\\n         border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"border-collapse:collapse;border-spacing:0px;\\\\\\"\\\\n      >\\\\n        <tbody>\\\\n          <tr>\\\\n            <td  style=\\\\\\"width:244px;\\\\\\">\\\\n              \\\\n      <img\\\\n         alt=\\\\\\"Applivery\\\\\\" height=\\\\\\"51\\\\\\" src=\\\\\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\\\\\" style=\\\\\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\\\\\" width=\\\\\\"244\\\\\\"\\\\n      />\\\\n    \\\\n            </td>\\\\n          </tr>\\\\n        </tbody>\\\\n      </table>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n            \\\\n              <tr>\\\\n                <td\\\\n                   align=\\\\\\"center\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <div\\\\n         style=\\\\\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\\\\\"\\\\n      >Your company</div>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n            \\\\n        </tbody>\\\\n      </table>\\\\n    \\\\n      </div>\\\\n    \\\\n          <!--[if mso | IE]></td></tr></table><![endif]-->\\\\n              </td>\\\\n            </tr>\\\\n          </tbody>\\\\n        </table>\\\\n        \\\\n      </div>\\\\n    \\\\n      \\\\n      <!--[if mso | IE]></td></tr></table><table align=\\\\\\"center\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" class=\\\\\\"\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"width:500px;\\\\\\" width=\\\\\\"500\\\\\\" bgcolor=\\\\\\"white\\\\\\" ><tr><td style=\\\\\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\\\\\"><![endif]-->\\\\n    \\\\n      \\\\n      <div  style=\\\\\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\\\\\">\\\\n        \\\\n        <table\\\\n           align=\\\\\\"center\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"background:white;background-color:white;width:100%;border-radius:12px;\\\\\\"\\\\n        >\\\\n          <tbody>\\\\n            <tr>\\\\n              <td\\\\n                 style=\\\\\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\\\\\"\\\\n              >\\\\n                <!--[if mso | IE]><table role=\\\\\\"presentation\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\"><tr><td class=\\\\\\"\\\\\\" style=\\\\\\"vertical-align:top;width:500px;\\\\\\" ><![endif]-->\\\\n            \\\\n      <div\\\\n         class=\\\\\\"mj-column-per-100 mj-outlook-group-fix\\\\\\" style=\\\\\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\\\\\"\\\\n      >\\\\n        \\\\n      <table\\\\n         border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"vertical-align:top;\\\\\\" width=\\\\\\"100%\\\\\\"\\\\n      >\\\\n        <tbody>\\\\n          \\\\n              <tr>\\\\n                <td\\\\n                   align=\\\\\\"center\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <div\\\\n         style=\\\\\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\\\\\"\\\\n      >\\"
+    + alias3((lookupProperty(helpers,\\"__\\")||(depth0 && lookupProperty(depth0,\\"__\\"))||alias2).call(alias1,\\"greetings\\",{\\"name\\":\\"__\\",\\"hash\\":{\\"email\\":(depth0 != null ? lookupProperty(depth0,\\"email\\") : depth0)},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":184,\\"column\\":7},\\"end\\":{\\"line\\":184,\\"column\\":37}}}))
+    + \\"</div>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n            \\\\n              <tr>\\\\n                <td\\\\n                   align=\\\\\\"left\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <div\\\\n         style=\\\\\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\\\\\"\\\\n      >\\"
+    + alias3((lookupProperty(helpers,\\"__\\")||(depth0 && lookupProperty(depth0,\\"__\\"))||alias2).call(alias1,\\"welcome\\",{\\"name\\":\\"__\\",\\"hash\\":{},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":196,\\"column\\":7},\\"end\\":{\\"line\\":196,\\"column\\":23}}}))
+    + \\"</div>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n\\"
+    + ((stack1 = lookupProperty(helpers,\\"if\\").call(alias1,(depth0 != null ? lookupProperty(depth0,\\"showButton\\") : depth0),{\\"name\\":\\"if\\",\\"hash\\":{},\\"fn\\":container.program(1, data, 0),\\"inverse\\":container.noop,\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":200,\\"column\\":12},\\"end\\":{\\"line\\":226,\\"column\\":19}}})) != null ? stack1 : \\"\\")
+    + ((stack1 = lookupProperty(helpers,\\"each\\").call(alias1,(depth0 != null ? lookupProperty(depth0,\\"items\\") : depth0),{\\"name\\":\\"each\\",\\"hash\\":{},\\"fn\\":container.program(3, data, 0),\\"inverse\\":container.noop,\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":226,\\"column\\":19},\\"end\\":{\\"line\\":238,\\"column\\":21}}})) != null ? stack1 : \\"\\")
+    + \\"              <tr>\\\\n                <td\\\\n                   align=\\\\\\"left\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <div\\\\n         style=\\\\\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\\\\\"\\\\n      >\\"
+    + ((stack1 = (lookupProperty(helpers,\\"__\\")||(depth0 && lookupProperty(depth0,\\"__\\"))||alias2).call(alias1,\\"goTo\\",{\\"name\\":\\"__\\",\\"hash\\":{\\"link\\":(depth0 != null ? lookupProperty(depth0,\\"link\\") : depth0)},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":246,\\"column\\":7},\\"end\\":{\\"line\\":246,\\"column\\":33}}})) != null ? stack1 : \\"\\")
+    + \\"</div>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n            \\\\n              <tr>\\\\n                <td\\\\n                   align=\\\\\\"left\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <div\\\\n         style=\\\\\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\\\\\"\\\\n      >\\"
+    + ((stack1 = lookupProperty(helpers,\\"if\\").call(alias1,(lookupProperty(helpers,\\"eq\\")||(depth0 && lookupProperty(depth0,\\"eq\\"))||alias2).call(alias1,(depth0 != null ? lookupProperty(depth0,\\"type\\") : depth0),\\"showDisclaimer\\",{\\"name\\":\\"eq\\",\\"hash\\":{},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":258,\\"column\\":13},\\"end\\":{\\"line\\":258,\\"column\\":39}}}),{\\"name\\":\\"if\\",\\"hash\\":{},\\"fn\\":container.program(5, data, 0),\\"inverse\\":container.program(7, data, 0),\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":258,\\"column\\":7},\\"end\\":{\\"line\\":262,\\"column\\":15}}})) != null ? stack1 : \\"\\")
+    + \\"</div>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n            \\\\n        </tbody>\\\\n      </table>\\\\n    \\\\n      </div>\\\\n    \\\\n          <!--[if mso | IE]></td></tr></table><![endif]-->\\\\n              </td>\\\\n            </tr>\\\\n          </tbody>\\\\n        </table>\\\\n        \\\\n      </div>\\\\n    \\\\n      \\\\n      <!--[if mso | IE]></td></tr></table><table align=\\\\\\"center\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" class=\\\\\\"\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"width:500px;\\\\\\" width=\\\\\\"500\\\\\\" ><tr><td style=\\\\\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\\\\\"><![endif]-->\\\\n    \\\\n      \\\\n      <div  style=\\\\\\"margin:0px auto;max-width:500px;\\\\\\">\\\\n        \\\\n        <table\\\\n           align=\\\\\\"center\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"width:100%;\\\\\\"\\\\n        >\\\\n          <tbody>\\\\n            <tr>\\\\n              <td\\\\n                 style=\\\\\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\\\\\"\\\\n              >\\\\n                <!--[if mso | IE]><table role=\\\\\\"presentation\\\\\\" border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\"><tr><td class=\\\\\\"\\\\\\" style=\\\\\\"vertical-align:top;width:500px;\\\\\\" ><![endif]-->\\\\n            \\\\n      <div\\\\n         class=\\\\\\"mj-column-per-100 mj-outlook-group-fix\\\\\\" style=\\\\\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\\\\\"\\\\n      >\\\\n        \\\\n      <table\\\\n         border=\\\\\\"0\\\\\\" cellpadding=\\\\\\"0\\\\\\" cellspacing=\\\\\\"0\\\\\\" role=\\\\\\"presentation\\\\\\" style=\\\\\\"vertical-align:top;\\\\\\" width=\\\\\\"100%\\\\\\"\\\\n      >\\\\n        <tbody>\\\\n          \\\\n              <tr>\\\\n                <td\\\\n                   align=\\\\\\"center\\\\\\" style=\\\\\\"font-size:0px;padding:10px 25px;word-break:break-word;\\\\\\"\\\\n                >\\\\n                  \\\\n      <div\\\\n         style=\\\\\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\\\\\"\\\\n      >©\\"
+    + alias3(((helper = (helper = lookupProperty(helpers,\\"year\\") || (depth0 != null ? lookupProperty(depth0,\\"year\\") : depth0)) != null ? helper : alias2),(typeof helper === \\"function\\" ? helper.call(alias1,{\\"name\\":\\"year\\",\\"hash\\":{},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":312,\\"column\\":8},\\"end\\":{\\"line\\":312,\\"column\\":16}}}) : helper)))
+    + \\" Your company. All rights reserved.</div>\\\\n    \\\\n                </td>\\\\n              </tr>\\\\n            \\\\n        </tbody>\\\\n      </table>\\\\n    \\\\n      </div>\\\\n    \\\\n          <!--[if mso | IE]></td></tr></table><![endif]-->\\\\n              </td>\\\\n            </tr>\\\\n          </tbody>\\\\n        </table>\\\\n        \\\\n      </div>\\\\n    \\\\n      \\\\n      <!--[if mso | IE]></td></tr></table><![endif]-->\\\\n    \\\\n    \\\\n      </div>\\\\n    \\\\n  </body>\\\\n</html>\\\\n  \\";
+},\\"useData\\":true}"
+`;
+
+exports[`compile 4`] = `
+"{
+  \\"en\\": {
+    \\"greetings\\": \\"hello {{email}}\\",
+    \\"welcome\\": \\"Welcome to my company\\",
+    \\"goTo\\": \\"go to <a href=\\\\\\"{{link}}\\\\\\">{{link}}</a>\\"
+  },
+  \\"es\\": {
+    \\"greetings\\": \\"hola {{email}}\\",
+    \\"welcome\\": \\"Bienvenido a mi empresa\\"
+  }
+}
+"
+`;
+
+exports[`compile 5`] = `
+"{{__ \\"greetings\\" email=email}}
+
+{{__ \\"welcome\\"}}"
+`;
+
+exports[`compile 6`] = `
+"module.exports={\\"compiler\\":[8,\\">= 4.3.0\\"],\\"main\\":function(container,depth0,helpers,partials,data) {
+    var alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return alias3((lookupProperty(helpers,\\"__\\")||(depth0 && lookupProperty(depth0,\\"__\\"))||alias2).call(alias1,\\"greetings\\",{\\"name\\":\\"__\\",\\"hash\\":{\\"email\\":(depth0 != null ? lookupProperty(depth0,\\"email\\") : depth0)},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":1,\\"column\\":0},\\"end\\":{\\"line\\":1,\\"column\\":30}}}))
+    + \\"\\\\n\\\\n\\"
+    + alias3((lookupProperty(helpers,\\"__\\")||(depth0 && lookupProperty(depth0,\\"__\\"))||alias2).call(alias1,\\"welcome\\",{\\"name\\":\\"__\\",\\"hash\\":{},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":3,\\"column\\":0},\\"end\\":{\\"line\\":3,\\"column\\":16}}}));
+},\\"useData\\":true}"
+`;
+
+exports[`compile 7`] = `
+"{{__ \\"greetings\\" email=email}}
+
+{{__ \\"welcome\\"}}"
+`;
+
+exports[`compile 8`] = `
+"module.exports={\\"compiler\\":[8,\\">= 4.3.0\\"],\\"main\\":function(container,depth0,helpers,partials,data) {
+    var alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return alias3((lookupProperty(helpers,\\"__\\")||(depth0 && lookupProperty(depth0,\\"__\\"))||alias2).call(alias1,\\"greetings\\",{\\"name\\":\\"__\\",\\"hash\\":{\\"email\\":(depth0 != null ? lookupProperty(depth0,\\"email\\") : depth0)},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":1,\\"column\\":0},\\"end\\":{\\"line\\":1,\\"column\\":30}}}))
+    + \\"\\\\n\\\\n\\"
+    + alias3((lookupProperty(helpers,\\"__\\")||(depth0 && lookupProperty(depth0,\\"__\\"))||alias2).call(alias1,\\"welcome\\",{\\"name\\":\\"__\\",\\"hash\\":{},\\"data\\":data,\\"loc\\":{\\"start\\":{\\"line\\":3,\\"column\\":0},\\"end\\":{\\"line\\":3,\\"column\\":16}}}));
+},\\"useData\\":true}"
+`;
+
+exports[`compile 9`] = `
+"{
+  \\"email\\": \\"john@gmail.com\\",
+  \\"items\\": [
+    {
+      \\"name\\": \\"item1\\"
+    },
+    {
+      \\"name\\": \\"item2\\"
+    },
+    {
+      \\"name\\": \\"item3\\"
+    }
+  ],
+  \\"showButton\\": true,
+  \\"link\\": \\"http://example.com\\",
+  \\"type\\": \\"hideDisclaimer\\"
+}
+"
+`;
+
+exports[`compile 10`] = `
+"<!doctype html>
+<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+  <head>
+    <title>
+      
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+    <!--<![endif]-->
+    <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <style type=\\"text/css\\">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=\\"text/css\\">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+      <!--[if !mso]><!-->
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+<link href=\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+        <style type=\\"text/css\\">
+          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);
+        </style>
+      <!--<![endif]-->
+
+    
+    
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:480px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+  
+    <style type=\\"text/css\\">
+    
+    
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+    <style type=\\"text/css\\">
+    
+    </style>
+    
+  </head>
+  <body style=\\"word-spacing:normal;background-color:#94a3b8;\\">
+    
+    
+      <div
+         style=\\"background-color:#94a3b8;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:244px;\\">
+              
+      <img
+         alt=\\"Applivery\\" height=\\"51\\" src=\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\" width=\\"244\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\"
+      >Your company</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;border-radius:12px;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\"
+      >hello john@gmail.com</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Welcome to my company</div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=\\"center\\" bgcolor=\\"#0241e3\\" role=\\"presentation\\" style=\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"#\\" style=\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\" target=\\"_blank\\"
+              >
+                Go to my account
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item1</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item2</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item3</b></div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >go to <a href=\\"http://example.com\\">http://example.com</a></div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >        no disclaimer
+        </div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\"
+      >©2022 Your company. All rights reserved.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  "
+`;
+
+exports[`compile 11`] = `
+"hello john@gmail.com
+
+Welcome to my company"
+`;
+
+exports[`compile 12`] = `
+"hello john@gmail.com
+
+Welcome to my company"
+`;
+
+exports[`compile 13`] = `
+"<!doctype html>
+<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+  <head>
+    <title>
+      
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+    <!--<![endif]-->
+    <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <style type=\\"text/css\\">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=\\"text/css\\">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+      <!--[if !mso]><!-->
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+<link href=\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+        <style type=\\"text/css\\">
+          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);
+        </style>
+      <!--<![endif]-->
+
+    
+    
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:480px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+  
+    <style type=\\"text/css\\">
+    
+    
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+    <style type=\\"text/css\\">
+    
+    </style>
+    
+  </head>
+  <body style=\\"word-spacing:normal;background-color:#94a3b8;\\">
+    
+    
+      <div
+         style=\\"background-color:#94a3b8;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:244px;\\">
+              
+      <img
+         alt=\\"Applivery\\" height=\\"51\\" src=\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\" width=\\"244\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\"
+      >Your company</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;border-radius:12px;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\"
+      >hola john@gmail.com</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Bienvenido a mi empresa</div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=\\"center\\" bgcolor=\\"#0241e3\\" role=\\"presentation\\" style=\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"#\\" style=\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\" target=\\"_blank\\"
+              >
+                Go to my account
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item1</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item2</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item3</b></div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >goTo</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >        no disclaimer
+        </div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\"
+      >©2022 Your company. All rights reserved.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  "
+`;
+
+exports[`compile 14`] = `
+"hola john@gmail.com
+
+Bienvenido a mi empresa"
+`;
+
+exports[`compile 15`] = `
+"hola john@gmail.com
+
+Bienvenido a mi empresa"
+`;
+
+exports[`compile 16`] = `
+"<!doctype html>
+<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+  <head>
+    <title>
+      
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+    <!--<![endif]-->
+    <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <style type=\\"text/css\\">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=\\"text/css\\">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+      <!--[if !mso]><!-->
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+<link href=\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+        <style type=\\"text/css\\">
+          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);
+        </style>
+      <!--<![endif]-->
+
+    
+    
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:480px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+  
+    <style type=\\"text/css\\">
+    
+    
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+    <style type=\\"text/css\\">
+    
+    </style>
+    
+  </head>
+  <body style=\\"word-spacing:normal;background-color:#94a3b8;\\">
+    
+    
+      <div
+         style=\\"background-color:#94a3b8;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:244px;\\">
+              
+      <img
+         alt=\\"Applivery\\" height=\\"51\\" src=\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\" width=\\"244\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\"
+      >Your company</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;border-radius:12px;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\"
+      >hello john@gmail.com</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Welcome to my company</div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=\\"center\\" bgcolor=\\"#0241e3\\" role=\\"presentation\\" style=\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"#\\" style=\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\" target=\\"_blank\\"
+              >
+                Go to my account
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item1</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item2</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item3</b></div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >go to <a href=\\"http://example.com\\">http://example.com</a></div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >        no disclaimer
+        </div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\"
+      >©2022 Your company. All rights reserved.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  "
+`;
+
+exports[`compile 17`] = `
+"hello john@gmail.com
+
+Welcome to my company"
+`;
+
+exports[`compile 18`] = `
+"hello john@gmail.com
+
+Welcome to my company"
+`;
+
+exports[`compile 19`] = `
+"<!doctype html>
+<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+  <head>
+    <title>
+      
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+    <!--<![endif]-->
+    <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <style type=\\"text/css\\">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=\\"text/css\\">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+      <!--[if !mso]><!-->
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+<link href=\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+        <style type=\\"text/css\\">
+          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);
+        </style>
+      <!--<![endif]-->
+
+    
+    
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:480px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+  
+    <style type=\\"text/css\\">
+    
+    
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+    <style type=\\"text/css\\">
+    
+    </style>
+    
+  </head>
+  <body style=\\"word-spacing:normal;background-color:#94a3b8;\\">
+    
+    
+      <div
+         style=\\"background-color:#94a3b8;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:244px;\\">
+              
+      <img
+         alt=\\"Applivery\\" height=\\"51\\" src=\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\" width=\\"244\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\"
+      >Your company</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;border-radius:12px;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\"
+      >hola john@gmail.com</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Bienvenido a mi empresa</div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=\\"center\\" bgcolor=\\"#0241e3\\" role=\\"presentation\\" style=\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"#\\" style=\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\" target=\\"_blank\\"
+              >
+                Go to my account
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item1</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item2</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item3</b></div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >goTo</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >        no disclaimer
+        </div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\"
+      >©2022 Your company. All rights reserved.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  "
+`;
+
+exports[`compile 20`] = `
+"hola john@gmail.com
+
+Bienvenido a mi empresa"
+`;
+
+exports[`compile 21`] = `
+"hola john@gmail.com
+
+Bienvenido a mi empresa"
+`;
+
+exports[`generateEmail 1`] = `
+{
+  "html": "<!doctype html>
+<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+  <head>
+    <title>
+      
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+    <!--<![endif]-->
+    <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <style type=\\"text/css\\">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=\\"text/css\\">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+      <!--[if !mso]><!-->
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+<link href=\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+        <style type=\\"text/css\\">
+          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);
+        </style>
+      <!--<![endif]-->
+
+    
+    
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:480px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+  
+    <style type=\\"text/css\\">
+    
+    
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+    <style type=\\"text/css\\">
+    
+    </style>
+    
+  </head>
+  <body style=\\"word-spacing:normal;background-color:#94a3b8;\\">
+    
+    
+      <div
+         style=\\"background-color:#94a3b8;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:244px;\\">
+              
+      <img
+         alt=\\"Applivery\\" height=\\"51\\" src=\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\" width=\\"244\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\"
+      >Your company</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;border-radius:12px;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\"
+      >hello john@gmail.com</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Welcome to my company</div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=\\"center\\" bgcolor=\\"#0241e3\\" role=\\"presentation\\" style=\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"#\\" style=\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\" target=\\"_blank\\"
+              >
+                Go to my account
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item1</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item2</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item3</b></div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >go to <a href=\\"http://example.com\\">http://example.com</a></div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >        no disclaimer
+        </div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\"
+      >©2022 Your company. All rights reserved.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  ",
+  "subject": "hello john@gmail.com
+
+Welcome to my company",
+  "text": "hello john@gmail.com
+
+Welcome to my company",
+}
+`;
+
+exports[`generateEmail with fallbackLanguage 1`] = `
+{
+  "html": "<!doctype html>
+<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+  <head>
+    <title>
+      
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+    <!--<![endif]-->
+    <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <style type=\\"text/css\\">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=\\"text/css\\">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+      <!--[if !mso]><!-->
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+<link href=\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+        <style type=\\"text/css\\">
+          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);
+        </style>
+      <!--<![endif]-->
+
+    
+    
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:480px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+  
+    <style type=\\"text/css\\">
+    
+    
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+    <style type=\\"text/css\\">
+    
+    </style>
+    
+  </head>
+  <body style=\\"word-spacing:normal;background-color:#94a3b8;\\">
+    
+    
+      <div
+         style=\\"background-color:#94a3b8;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:244px;\\">
+              
+      <img
+         alt=\\"Applivery\\" height=\\"51\\" src=\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\" width=\\"244\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\"
+      >Your company</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;border-radius:12px;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\"
+      >hola john@gmail.com</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Bienvenido a mi empresa</div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=\\"center\\" bgcolor=\\"#0241e3\\" role=\\"presentation\\" style=\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"#\\" style=\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\" target=\\"_blank\\"
+              >
+                Go to my account
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item1</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item2</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item3</b></div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >goTo</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >        no disclaimer
+        </div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\"
+      >©2022 Your company. All rights reserved.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  ",
+  "subject": "hola john@gmail.com
+
+Bienvenido a mi empresa",
+  "text": "hola john@gmail.com
+
+Bienvenido a mi empresa",
+}
+`;
+
+exports[`generateEmail with fallbackLanguage 2`] = `
+{
+  "html": "<!doctype html>
+<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+  <head>
+    <title>
+      
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+    <!--<![endif]-->
+    <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+    <style type=\\"text/css\\">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=\\"text/css\\">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+    
+      <!--[if !mso]><!-->
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+<link href=\\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+        <style type=\\"text/css\\">
+          @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700);
+        </style>
+      <!--<![endif]-->
+
+    
+    
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:480px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+    </style>
+    
+  
+    <style type=\\"text/css\\">
+    
+    
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+    </style>
+    <style type=\\"text/css\\">
+    
+    </style>
+    
+  </head>
+  <body style=\\"word-spacing:normal;background-color:#94a3b8;\\">
+    
+    
+      <div
+         style=\\"background-color:#94a3b8;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:244px;\\">
+              
+      <img
+         alt=\\"Applivery\\" height=\\"51\\" src=\\"https://i.picsum.photos/id/867/244/51.jpg?hmac=kbX_0Yv258Xoy1Qm_l98N9i-dO8QaX0CtYX-3ft-tKs\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:51px;width:100%;font-size:13px;\\" width=\\"244\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;text-align:center;color:#334155;\\"
+      >Your company</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;border-radius:12px;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;border-radius:12px;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:18px;font-weight:500;line-height:1.5;text-align:center;color:#010258;\\"
+      >hola john@gmail.com</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Bienvenido a mi empresa</div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=\\"center\\" bgcolor=\\"#0241e3\\" role=\\"presentation\\" style=\\"border:none;border-radius:8px;cursor:auto;mso-padding-alt:10px 25px;background:#0241e3;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"#\\" style=\\"display:inline-block;background:#0241e3;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;font-weight:500;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:8px;\\" target=\\"_blank\\"
+              >
+                Go to my account
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item1</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item2</b></div>
+    
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >Item: <b>item3</b></div>
+    
+                </td>
+              </tr>
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >go to <a href=\\"http://example.com\\">http://example.com</a></div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:left;color:#334155;\\"
+      >        no disclaimer
+        </div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:500px;\\" width=\\"500\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"margin:0px auto;max-width:500px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:500px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"vertical-align:top;\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:10px 25px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Inter,Ubuntu, Helvetica, Arial, sans-serif;font-size:12px;line-height:1.5;text-align:center;color:#94a3b8;\\"
+      >©2022 Your company. All rights reserved.</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+  </body>
+</html>
+  ",
+  "subject": "hola john@gmail.com
+
+Bienvenido a mi empresa",
+  "text": "hola john@gmail.com
+
+Bienvenido a mi empresa",
+}
+`;

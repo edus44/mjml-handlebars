@@ -1,0 +1,72 @@
+<mjml>
+  <mj-head>
+    <mj-include path="./partials/head.mjml" />
+  </mj-head>
+
+  <mj-body>
+    <mj-include path="./partials/header.mjml" />
+    <mj-section mj-class="main">
+      <mj-column>
+        <mj-text mj-class="title">
+          {{__ "greetings" email=email}}
+        </mj-text>
+        <mj-text>
+          {{__ "welcome"}}
+        </mj-text>
+        <mj-raw>{{#if showButton}}</mj-raw>
+        <mj-button href="#">
+          Go to my account 
+        </mj-button>
+        <mj-raw>{{/if}}</mj-raw>
+        <mj-raw>{{#each items}}</mj-raw>
+        <mj-text>Item: <b>{{this.name}}</b></mj-text>
+        <mj-raw>{{/each}}</mj-raw>
+
+        <mj-text>{{{__ 'goTo' link=link }}}</mj-text>
+
+        <mj-text>
+        {{#if (eq type 'showDisclaimer') }}
+        {{disclaimer}}
+        {{else}}
+        no disclaimer
+        {{/if}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./partials/footer.mjml" />
+  </mj-body>
+</mjml>
+
+<!-- text
+{{__ "greetings" email=email}}
+
+{{__ "welcome"}}
+-->
+
+<!-- subject
+{{__ "greetings" email=email}}
+
+{{__ "welcome"}}
+-->
+
+<!-- vars
+email: john@gmail.com 
+items: 
+  - name: item1
+  - name: item2
+  - name: item3
+showButton: true
+link: http://example.com
+type: 'hideDisclaimer'
+# disclaimer: 'This is the disclaimer'
+-->
+
+<!-- i18n
+en:
+  greetings: hello {{email}}
+  welcome: Welcome to my company
+  goTo: go to <a href="{{link}}">{{link}}</a>
+es:
+  greetings: hola {{email}}
+  welcome: Bienvenido a mi empresa
+-->

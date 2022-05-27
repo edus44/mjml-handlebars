@@ -1,12 +1,15 @@
 'use strict'
 
 const handlebars = require('handlebars')
-const { withI18n } = require('./i18n')
+const { withI18n } = require('./helpers')
 const { resolve } = require('path')
 
-const root = process.env.MJML_HANDLEBARS_ROOT || resolve(process.cwd() , 'emails')
+const defaultRoot = resolve(process.cwd() , 'emails')
 
 function generateEmail(templateName, vars, language, fallbackLanguage) {
+
+  const root = process.env.MJML_HANDLEBARS_ROOT || defaultRoot
+
   const asset = resolve(root, `output/${templateName}/${templateName}`)
   const templateHtml = require(asset + '.html.js')
   const templateText = require(asset + '.txt.js')

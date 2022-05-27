@@ -1,4 +1,5 @@
-import { generateEmail } from 'mjml-handlebars'
+// import { generateEmail } from 'mjml-handlebars'
+import { generateEmail } from '../'
 
 console.log(
   generateEmail(

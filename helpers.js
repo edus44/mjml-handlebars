@@ -7,12 +7,14 @@ const handlebars = require('handlebars')
 handlebars.registerHelper('__', (key, options) => {
   const i18n = options.data.root._i18n
   let value = get(i18n.messages[i18n.language], key)
-  if (value === undefined && fallbackLanguage)
+  if (value === undefined && i18n.fallbackLanguage)
     value = get(i18n.messages[i18n.fallbackLanguage], key)
+
+  if (value === undefined) return key
 
   // Interpolation
   for (const key in options.hash) {
-    value = value.replace(`{{${key}}}`, options.hash[key])
+    value = value.replaceAll(`{{${key}}}`, options.hash[key])
   }
   return value
 })

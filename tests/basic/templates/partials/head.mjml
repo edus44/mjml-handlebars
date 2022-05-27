@@ -1,0 +1,9 @@
+<mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700" />
+<mj-attributes>
+  <mj-body background-color="#94a3b8" width="500px" />
+  <mj-class name="main" background-color="white" border-radius="12px" />
+  <mj-class name="title" color="#010258" font-weight="500" font-size="18px" align="center" />
+
+  <mj-button background-color="#0241e3" color="white" font-weight="500" border-radius="8px" align="left" />
+  <mj-text color="#334155" font-family="Inter,Ubuntu, Helvetica, Arial, sans-serif" font-size="12px" line-height="1.5" />
+</mj-attributes>
