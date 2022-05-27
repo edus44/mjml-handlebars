@@ -2,3 +2,4 @@ example/emails/preview
 example/emails/output
 example/node_modules
 yarn.lock
+tests
