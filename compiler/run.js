@@ -1,4 +1,5 @@
 const { compile } = require('./compiler')
+const { resolve } = require('path')
 
 const defaultRoot = resolve(process.cwd(), 'emails')
 
