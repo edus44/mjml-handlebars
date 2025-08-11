@@ -55,15 +55,15 @@ function compile(root) {
     fs.outputJSONSync(assetName + '.i18n.json', messages, { spaces: 2 })
     fs.outputJSONSync(assetName + '.vars.json', vars, { spaces: 2 })
     fs.outputFileSync(
-      assetName + '.html.js',
+      assetName + '.html.cjs',
       'module.exports=' + handlebars.precompile(mjmlResult.html),
     )
     fs.outputFileSync(
-      assetName + '.txt.js',
+      assetName + '.txt.cjs',
       'module.exports=' + handlebars.precompile(textTemplate),
     )
     fs.outputFileSync(
-      assetName + '.subject.txt.js',
+      assetName + '.subject.txt.cjs',
       'module.exports=' + handlebars.precompile(subjectTemplate),
     )
 
